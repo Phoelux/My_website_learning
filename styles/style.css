@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   min-width: 100vh;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url("../img/coffee shop.jpg"); 
@@ -6,6 +8,32 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
+}
+
+.logo{
+  font-weight:700;
+  font-size:30px;
+}
+nav,.link{
+  display: flex;
+}
+nav{
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+  background-color: rgba(208, 214, 220, 0.378);
+  border-radius: 60px;
+  padding: 0 15vh;
+}
+.link{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  justify-content: right;
+}
+.link a{
+  color: black;
+  text-decoration:none;
 }
 .picture  {
     display: flex;

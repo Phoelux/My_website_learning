@@ -52,12 +52,13 @@ nav{
   height: 75vh;
   color: #f8f1f1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .section1_content h2{
   
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .section2  {

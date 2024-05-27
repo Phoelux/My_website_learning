@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
 html{
   scroll-behavior: smooth;
 }
@@ -12,7 +15,7 @@ body{
 
 .logo{
   font-weight:700;
-  font-size:30px;
+  font-size:40px;
 }
 nav,.link{
   display: flex;
@@ -24,6 +27,12 @@ nav{
   background-color: rgba(208, 214, 220, 0.378);
   border-radius: 60px;
   padding: 0 15vh;
+  
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 .link{
   gap: 2rem;
@@ -40,10 +49,12 @@ nav{
     justify-content: space-between  ;
     align-items:center;
     padding: 5% 20%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .picture a{
-    width: 250px;
     text-align: center;
     border: none;
     background: none;

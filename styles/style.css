@@ -9,12 +9,12 @@ html{
   scroll-behavior: smooth;
 }
 .section1{
-  height: 95vh;
+  height: 98vh;
   background-color: rgb(10, 10, 10);
-  background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url("../img/coffee_shop.jpg"); 
+  background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url("../img/coffee.jpeg"); 
   background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
+  background-position:center;
+  background-size:100%;
 }
 .topnav{
   font-weight:700;
@@ -49,16 +49,22 @@ nav{
   text-decoration: underline;
 }
 .section1_content{
-  height: 75vh;
+  background-color: rgba(26, 28, 29, 0.323);
+  height: 50vh;
+  width: 86vw;
   color: #f8f1f1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 8vh 7vw;
+  border-radius: 50px;
 }
 .section1_content h2{
-  
-  font-size: 4vw;
+  text-align:justify;
+  font-size: 3vw;
+  font-optical-sizing: auto;
+
 }
 
 .section2  {

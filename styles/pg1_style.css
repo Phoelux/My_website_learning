@@ -5,15 +5,21 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
   }
   .section1_content{
-    height: 75vh;
+    background-color:rgba(33, 29, 29, 0.46);
+    border-radius:80px;
+    height: 50vh;
+    width: 85vw;
     color: #f8f1f1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center ;
     justify-content: center;
   }
   .section1_content h2{
-    font-size: 5vw;
+    font-size: 4vw;
   }

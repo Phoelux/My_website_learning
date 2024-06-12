@@ -1,50 +1,67 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 html{
   scroll-behavior: smooth;
 }
-body{
-  min-width: 100vh;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url("../img/coffee shop.jpg"); 
-  height: 100vh;
+.section1{
+  height: 95vh;
+  background-color: rgb(10, 10, 10);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url("../img/coffee_shop.jpg"); 
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
-
-.logo{
+.topnav{
   font-weight:700;
   font-size:40px;
 }
 nav,.link{
   display: flex;
-}
-nav{
   justify-content: space-between;
   align-items: center;
+}
+nav{
   height: 17vh;
   background-color: rgba(208, 214, 220, 0.378);
   border-radius: 60px;
-  padding: 0 15vh;
-  
+  padding: 0 10vw;
   font-family: "Edu NSW ACT Foundation", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  
 }
 .link{
-  gap: 2rem;
+  gap: 2.5rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   justify-content: right;
 }
 .link a{
   color: black;
   text-decoration:none;
 }
-.picture  {
+.link a:hover{
+  text-decoration: underline;
+}
+.section1_content{
+  height: 75vh;
+  color: #f8f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section1_content h2{
+  
+  font-size: 4vw;
+}
+
+.section2  {
     display: flex;
     justify-content: space-between  ;
     align-items:center;
@@ -52,31 +69,33 @@ nav{
     font-family: "Chakra Petch", sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: rgba(131, 88, 33, 0.373);
+    
 }
 
-.picture a{
+.section2  a{
     text-align: center;
     border: none;
     background: none;
     border-radius :40px;
     text-decoration:none;
-  }
+}
 
-.picture a:hover{
+.section2 a:hover{
   background-color: rgba(255, 255, 255, 0.325);
   cursor: pointer;
 }
-.picture a:visited{
+
+.section2 a:visited{
   text-decoration: none;
 }
 
-
-.picture img{
+.section2 img{
   width: 100%;
   height: auto;
 }
 
-h1{
+.section2 h1{
   margin: 0;
   font-weight:800;
   font-size: 30px;

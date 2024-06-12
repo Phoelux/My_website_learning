@@ -49,10 +49,10 @@ nav{
   text-decoration: underline;
 }
 .section1_content{
-  background-color: rgba(26, 28, 29, 0.323);
+  background-color: rgba(67, 76, 73, 0.371);
   height: 50vh;
   width: 86vw;
-  color: #f8f1f1;
+  color: #c7c3bed3;
   display: flex;
   flex-direction: column;
   align-items: center;

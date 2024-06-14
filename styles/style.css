@@ -66,7 +66,33 @@ nav{
   font-optical-sizing: auto;
 
 }
+.section2  {
+  height: 65vh;
+  padding: 20vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(131, 88, 33, 0.373);
+  padding: 45px;
+}
+.skills{
+  font-weight:bold;
+  text-align: center;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vh;
+}
+.icons {
+  margin:5vh 20vw;
+  width: 120vh;
+}
+.icons img{
+  width: 40vh;
+  height: 40vh;
+}
 
+/*
 .section2  {
     display: flex;
     justify-content: space-between  ;
@@ -79,31 +105,9 @@ nav{
     
 }
 
-.section2  a{
-    text-align: center;
-    border: none;
-    background: none;
-    border-radius :40px;
-    text-decoration:none;
-}
-
-.section2 a:hover{
-  background-color: rgba(255, 255, 255, 0.325);
-  cursor: pointer;
-}
-
-.section2 a:visited{
-  text-decoration: none;
-}
 
 .section2 img{
   width: 100%;
   height: auto;
 }
 
-.section2 h1{
-  margin: 0;
-  font-weight:800;
-  font-size: 30px;
-  color:black ;
-}
